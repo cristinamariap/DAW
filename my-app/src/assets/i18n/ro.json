@@ -1,0 +1,14 @@
+{
+  "HELLO": "Salut",
+  "NAME" : "Nume:",
+  "PNAME" : "Prenume",
+  "TYPE" : "Tip:",
+  "LOCATION" : "Locatie:",
+  "SPECIALIZATION" : "Specializare:",
+  "GRADUATION" : "Anul absolvirii:",
+  "DETAILS" : "Detalii",
+  "MEDUNITS": "Unitati Medicale",
+  "DOCTORS" : "Doctori:",
+  "HOME" : "ACASA",
+  "ABOUT" : "DESPRE"
+}

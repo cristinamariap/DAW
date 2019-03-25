@@ -1,0 +1,27 @@
+<nav mat-tab-nav-bar>
+  <a mat-tab-link
+     *ngFor="let link of navLinks"
+     [routerLink]="link.path"
+     routerLinkActive #rla="routerLinkActive"
+     [active]="rla.isActive">
+    {{link.label}}
+  </a>
+
+  <mat-form-field style="display: block;  margin-left: 50%;">
+    <mat-select name="" id="" placeholder="Select language">
+      <mat-option value="ro" (click)="changeLanguage('ro')">RO</mat-option>
+      <mat-option value="en" (click)="changeLanguage('en')">EN</mat-option>
+    </mat-select>
+  </mat-form-field>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer>
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2019 Copyright:
+  <a> Popescu Cristina </a>
+</div>
+<!-- Copyright -->
+</footer>
+

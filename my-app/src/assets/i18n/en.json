@@ -1,0 +1,14 @@
+{
+  "HELLO": "hello ",
+  "NAME" : "Last Name: ",
+  "PNAME" : "First Name:",
+  "TYPE" : "Type: ",
+  "LOCATION" : "Location: ",
+  "SPECIALIZATION" : "Specialization: ",
+  "GRADUATION" : "Graduation year: ",
+  "DETAILS" : "Details:",
+  "MEDUNITS": "Medical Units:",
+  "DOCTORS" : "Doctors:",
+  "HOME" : "HOME",
+  "ABOUT" : "ABOUT"
+}
